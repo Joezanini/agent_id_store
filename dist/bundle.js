@@ -24,6 +24,8 @@ class AgentData extends HTMLElement {
         const template = document.createElement("template");
 
         // **STEP (3)** //
+        //accessing properties provided by Agent Desktop
+        //dynamically with ${this.propertyname}
         template.innerHTML = /* html */`
             <style>
                 .btn {
