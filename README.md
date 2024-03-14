@@ -11,7 +11,7 @@ Navigate to Contact Center>Desktop Layout and download a default layout file.
 The file [Default Desktop Layout agent.json](https://github.com/Joezanini/agent_id_store/blob/main/Default%20Desktop%20Layout%20agent.json) a sample file that you can upload to the [agent deskop](https://admin.webex.com/wxcc/desktop-experience/desktop-layouts). for this app to work.
 
 ## Bundling app
-Custom widgets must bundle all their static resources (CSS, JavaScript, markup, and images) in a single JavaScript file using a bundle library (for example, Webpack, Rollup, Parcel). The bundle will be hosted from VS Code on the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) plug in. To get started on producing this set up, this project uses [Webpack](https://webpack.js.org/). The file is already [bundled](https://github.com/Joezanini/agent_id_store/blob/main/dist/bundle.js).
+Custom widgets must bundle all their static resources (CSS, JavaScript, markup, and images) in a single JavaScript file using a bundle library (for example, Webpack, Rollup, Parcel). The bundle will be hosted from VS Code on the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) plug in. To get started on producing this set up, this project uses [Webpack](https://webpack.js.org/). The file is already [bundled](https://github.com/Joezanini/agent_id_store/blob/main/dist/bundle.js). if you make any changes to the project, process the files again via Webpack to bring the bundled file up to date.
 
 ## Hosting via Live Server
 You can install Live Server making it available in the blue status bar in VS Code.
