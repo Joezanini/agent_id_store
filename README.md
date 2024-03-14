@@ -1,6 +1,8 @@
 # agent_id_store
 
-<agent_id_store is a Webex Contact Center custom widget that does x,y,z>
+Agent_ID_Store is a sample Webex Contact Center custom widget that will create an icon on the left sidebar of the agent desktop. The 2
+buttons that make up the smaple widget should be populated in the main page when the
+widget icon is clicked, displaying the Agent ID and the Agent Name from the STORE keys via properties.
 
 ## Custom Widgets
 A Custom Widget is a third-party application that is configured in the JSON layout. You can place the custom widget on the custom page, custom tab (Auxiliary Information pane), or on the horizontal header of the Agent Desktop.
@@ -24,11 +26,6 @@ For this sample, we hosted the code bundle within VS Code uing the [Live Server]
 Once the Desktop Layout file is uploaded in Control Hub, and Live Server is running,
 You can log into the Agent Desktop with the Premium Agent credentials supplied in the
 email response with your Webex Contact Center sandbox credentials.
-
-You should see an additional icon on the left side bar of the agent desktop. The 2
-buttons that make up the simple widget should be populated in the main page when the
-icon is clicked, displaying the Agent ID and the Agent Name from the STORE keys via
-properties.
 
 
 
